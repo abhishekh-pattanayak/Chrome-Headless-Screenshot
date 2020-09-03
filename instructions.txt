@@ -1,0 +1,13 @@
+Instructions
+
+Step 1: Run selenium/standalone-chrome with the following configurations
+
+	# docker run -d -p 4444:4444 --shm-size=2g selenium/standalone-chrome
+
+Step 2: Activate the environment with the requirements installed.
+
+Step 3: Run the script using: 
+
+	# python script.py
+
+Step 3: After the script is run the cropped final images are stored in cropped folder in "path" folder specified in the driver function. The file names are of the format "screen_shot_{link}.png"
